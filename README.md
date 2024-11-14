@@ -14,6 +14,7 @@ To build a simple yet effective model to predict Apple's stock price trends usin
 
 # Project Overview
 This dataset workflow outlines the steps involved in collecting, cleaning, and preparing the Apple stock price dataset for machine learning analysis. The process involves the following stages:
+
 **1. Data collection:**
    
 ##  Challenge:
