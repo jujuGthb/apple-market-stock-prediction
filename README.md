@@ -14,7 +14,7 @@ To build a simple yet effective model to predict Apple's stock price trends usin
 
 # Project Overview
 This dataset workflow outlines the steps involved in collecting, cleaning, and preparing the Apple stock price dataset for machine learning analysis. The process involves the following stages:
-1. Data collection:
+**1. Data collection:**
    
 ##  Challenge:
 
@@ -46,10 +46,10 @@ The downloaded data was converted to a CSV format for further analysis using the
 We fetched data from 2004 to 2023, resulting in a dataset with 5033 records.
 This approach ensured a clean and reliable data source for our project.
 
-2.  Data Processing:
+**2.  Data Processing:**
 
 The dataset was loaded from the 'AAPL_stock_data.csv' file, with the 'Date' column set as the index. Missing values, if any, were handled using forward filling to maintain data continuity. To improve model performance and ensure fair comparisons, the data was standardized using a StandardScaler. Outliers, identified using the Interquartile Range (IQR) method, were removed to prevent their undue influence on the model.
 
-3. Exploratory Data Analysis (EDA):
+**3. Exploratory Data Analysis (EDA):**
 
 To gain insights into the data and inform feature engineering, an exploratory data analysis was conducted. A correlation matrix was generated to visualize the relationships between different features. A rolling volatility calculation was performed to understand the stock's price volatility over time. These analyses helped identify potential trends, seasonality, and other relevant patterns.
