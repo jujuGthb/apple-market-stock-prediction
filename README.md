@@ -33,18 +33,18 @@ To overcome this challenge, we opted to leverage the official Yahoo Finance API.
 
 ## Process: 
 
-*Library Installation:
+* Library Installation:
 
 We installed the finance library using the command: !pip install --upgrade finance.
 
-*Data Retrieval:
+* Data Retrieval:
 
 Utilizing the finance library, we retrieved historical Apple stock price data directly from the Yahoo Finance API.
-*Data Conversion:
+* Data Conversion:
 
 The downloaded data was converted to a CSV format for further analysis using the command: data.to_csv('AAPL_stock_data.csv')
 
-*Data Range:
+* Data Range:
 
 We fetched data from 2004 to 2023, resulting in a dataset with 5033 records.
 This approach ensured a clean and reliable data source for our project.
