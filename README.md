@@ -53,3 +53,6 @@ The dataset was loaded from the 'AAPL_stock_data.csv' file, with the 'Date' colu
 **3. Exploratory Data Analysis (EDA):**
 
 To gain insights into the data and inform feature engineering, an exploratory data analysis was conducted. A correlation matrix was generated to visualize the relationships between different features. A rolling volatility calculation was performed to understand the stock's price volatility over time. These analyses helped identify potential trends, seasonality, and other relevant patterns.
+
+
+![image alt](https://github.com/jujuGthb/apple-market-stock-prediction/blob/cfba744303e40ddd7ba6c2e142875b2d1ac7d47a/apple-market-stock-prediction/graph.png)
